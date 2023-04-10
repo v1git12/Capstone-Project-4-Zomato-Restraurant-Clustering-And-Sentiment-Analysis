@@ -47,7 +47,7 @@ Pictures| Number of pictures posted with review
 
 
 ## Data Wrangling & Data Preprocessing
-### Overall Insights From Zomato Restaurant Names and Metadata.csv
+### Overall Insights From Zomato Restaurant Dataset
 
 * This dataset has a shape of (105, 6) with 54 null values in ‘Collection’ column and 1 null values in ‘Timing’ column.
 * There are 44 different/unique Cuisines present in our dataset.
@@ -58,7 +58,7 @@ Pictures| Number of pictures posted with review
 * Collage - Hyatt Hyderabad Gachibowli and Feast - Sheraton Hyderabad Hotel are the two most expensive restaurants with the cost of 2800 and 2500 rupees which is a average per person estimated cost of dining.
 * Mohammedia Shawarma, Amul and Asian Meal Box Hotel are the most affordable Restaurants where the cost of 150 and 200 rupees which is a average per person estimated cost of dining.
 
-### Overall Insights From Zomato Reviews Data.csv
+### Overall Insights From Zomato Reviews Dataset
 * From this dataset, we found that 5 star is the highest rating given by 3832 number of customer. At the same time, Lowest rating given by the customers is 1.5 star.
 * We analyses the Top 20 Popular customers (With Highest number of followers) and their order timings. Here we got to know that Satwinder Singh has the highest number of followers with 13410 followers, followed by Eat_vth_me who has slightly less number of 13320.
 * We found Top 20 Popular customers and restaurants (With Highest number of Review_count). Anvesh Chowdary has posted a high number of reviews i.e. 1031 reviews, while the hotel named Collage - Hyatt Hyderabad Gachibowli, Pista House and Labonel has 1031 number of reviews count.
@@ -95,6 +95,15 @@ Some of the visualization of important columns -
 3. DBSCAN Clustering
 4. PCA (Principal Component Analysis)
 5. Content Based Recommendation System
+
+# Future Work
+
+AI-driven algorithms can be used to automatically generate summary reports of restaurant reviews in various languages and identify common trends in customer feedback.
+Sentiment Analysis: Sentiment analysis can be used to identify what people really think about a restaurant based on reviews. This can help customers determine which restaurants are worth their time, and which ones should be avoided.
+Online Learning: Currently, the system is trained on a batch of historical data. Future work can involve developing an online learning system that can adapt to the changing preferences of the users in real-time.
+Multi-language support: Zomato is a global platform and supports multiple languages. Future work can involve developing a multi-language content-based recommendation system that can handle different languages and provide recommendations in the user's preferred language.
+Computer Vision: Utilize computer vision techniques to identify objects and classify food items in restaurant photos. 
+Deep Learning: Use deep learning algorithms to compare reviews between two different restaurants and generate comparison results.
 
 # Conclusion
 The conclusion of this Zomato restaurant clustering and metadata sentiment analysis project is that it is possible to use natural language processing and machine learning algorithms to build a model that can accurately cluster restaurants based on their reviews and sentiments. This project has helped identify customer preferences and restaurant ratings in order to better understand the impacts of customer feedback on the restaurant industry. This model can then be used to improve the decision-making process of a restaurant owner or manager in terms of advertising, pricing, customer acquisition, and other important business decisions. With this data, business owners can make more informed decisions about the quality of their restaurants and better understand the customer experience. We have seen that AI-based solutions provide a powerful tool for business owners to gain insight into the performance of their restaurants. After that sentiment analysis can be used to gain insights into customer preferences, providing data-driven understanding into how customers perceive different aspects of service quality. Furthermore, the insights provided by this project can be used for further business growth strategies.
